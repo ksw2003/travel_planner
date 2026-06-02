@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
-
+import streamlit as st
 load_dotenv()
 
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
